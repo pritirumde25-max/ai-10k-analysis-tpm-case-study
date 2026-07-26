@@ -7,13 +7,11 @@ Design and develop an MVP that helps users review public-company 10-K filings mo
 
 ### 2. Business Problem
 
-A 10-K filing can be lengthy and difficult to review quickly. Important information may be spread across financial statements, management discussion, risk factors, and supporting notes.
-
-Manual review requires significant time, and users may miss important changes or relationships between sections. The proposed platform will reduce review effort while keeping the original filing visible as the source of truth.
+MBA students, analysts, and individual investors spend significant time reviewing lengthy 10-K filings. Important financial trends, business risks, and management commentary are distributed across multiple sections, making manual analysis slow and increasing the chance that users miss important information.
 
 ### 3. Objective
 
-Create a working MVP that can process a public 10-K filing, summarize selected sections, and return source-supported insights through a simple interface.
+Create an MVP that processes selected sections of a public-company 10-K filing and produces a structured summary of financial trends and business risks, with citations linking important claims to the original filing.
 
 ### 4. Target Users
 
