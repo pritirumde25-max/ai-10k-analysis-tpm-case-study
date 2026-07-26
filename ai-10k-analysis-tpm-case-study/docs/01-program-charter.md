@@ -13,15 +13,38 @@ MBA students, analysts, and individual investors spend significant time reviewin
 
 Create an MVP that processes selected sections of a public-company 10-K filing and produces a structured summary of financial trends and business risks, with citations linking important claims to the original filing.
 
-### 4. Target Users
+**4. Target Users**
+**Primary User**
 
-- MBA students
-- Financial analysts
-- Individual investors
-- Corporate strategy professionals
-- Investment research professionals
+An MBA student or early-career financial analyst who needs to review a public company’s 10-K filing efficiently for company research or financial analysis.
 
-### 5. In Scope
+**Secondary Users**
+Individual investors
+Corporate strategy professionals
+Investment-research professionals
+**5. Primary User Journey**
+The user enters a public-company ticker.
+The user selects an available 10-K filing.
+The user selects the filing sections to analyze.
+The platform retrieves and processes the selected filing.
+The platform generates structured summaries of the selected sections.
+The platform links important claims to supporting source text.
+The user reviews and copies the results for further analysis.
+
+**6. MVP Scope**
+The first version will support:
+
+One public company and one 10-K filing per analysis
+Publicly available 10-K filings
+Analysis of the Business, Risk Factors, and Management’s Discussion and Analysis sections
+Structured summaries of important trends and risks
+Citations linking important claims to the original filing
+A basic user interface for submitting and reviewing an analysis
+Clear error messages when a filing cannot be processed
+
+Complex financial-table extraction, company comparison, investment recommendations, stock-price forecasting, and real-time market data are not included in the first MVP.
+
+### 6. In Scope
 
 - Retrieve or upload a public 10-K filing
 - Extract text from selected sections
@@ -32,7 +55,7 @@ Create an MVP that processes selected sections of a public-company 10-K filing a
 - Track errors, latency, usage, and estimated cost
 - Document technical decisions, risks, and launch criteria
 
-### 6. Out of Scope
+### 7. Out of Scope
 
 - Investment advice or buy/sell recommendations
 - Stock-price forecasting
