@@ -87,17 +87,24 @@ Complex financial-table extraction, company comparison, investment recommendatio
 
 ### 9. Success Criteria
 
-The MVP should:
 
-- Complete an analysis successfully for selected sample filings
-- Provide citations for important generated claims
-- Clearly distinguish source content from generated interpretation
-- Handle invalid input and service failures without exposing technical details
-- Track response time, failures, and estimated analysis cost
-- Document known limitations and informational-use disclaimers
-- Provide a repeatable demonstration workflow
+The MVP will be evaluated using product, quality, technical, and cost measures. These are initial targets and may be refined after baseline prototype testing.
 
-Exact performance and quality targets will be finalized after baseline prototype testing.
+| Category     | Metric                                         | Initial MVP Target                                                          |
+| ------------ | ---------------------------------------------- | --------------------------------------------------------------------------- |
+| User outcome | Time required to review selected 10-K sections | Demonstrate a meaningful reduction compared with manual review              |
+| Product      | Analysis completion rate                       | At least 90% for supported filings                                          |
+| Product      | User usefulness rating                         | At least 4 out of 5 during structured review                                |
+| Quality      | Citation coverage                              | At least 90% of important generated claims linked to supporting source text |
+| Quality      | Unsupported-claim rate                         | Less than 5% during manual evaluation                                       |
+| Quality      | Section-extraction accuracy                    | At least 90% for supported filing formats                                   |
+| Quality      | Financial-number accuracy                      | At least 95% for numbers included in generated summaries                    |
+| Performance  | Average analysis response time                 | Establish after baseline testing and improve during the MVP                 |
+| Performance  | P95 analysis response time                     | Establish after baseline testing                                            |
+| Reliability  | Analysis failure rate                          | Less than 5% for supported filings                                          |
+| Cost         | Cost per completed analysis                    | Measured and maintained within the defined MVP budget                       |
+
+The project will not be considered successful based only on application completion. It must demonstrate usable summaries, source traceability, acceptable reliability, and controlled processing cost.
 
 ### 10. Major Risks
 
